@@ -1012,11 +1012,15 @@ name = "nanobot"
 version = "0.1.0"
 source = { virtual = "nanobot" }
 dependencies = [
+    { name = "mcp-lms" },
     { name = "nanobot-ai" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "nanobot-ai", url = "https://github.com/HKUDS/nanobot/archive/e7d371ec1e6531b28898ec2c869ef338e8dd46ec.zip" }]
+requires-dist = [
+    { name = "mcp-lms", editable = "mcp/mcp-lms" },
+    { name = "nanobot-ai", url = "https://github.com/HKUDS/nanobot/archive/e7d371ec1e6531b28898ec2c869ef338e8dd46ec.zip" },
+]
 
 [[package]]
 name = "nanobot-ai"
