@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-mcp-lms = { path = "../mcp/mcp-lms", editable = true }
-nanobot-webchat = { path = "../nanobot-websocket-channel/nanobot-webchat", editable = true }
-mcp-webchat = { path = "../nanobot-websocket-channel/mcp-webchat", editable = true }
-mcp-obs = { path = "../mcp/mcp-obs", editable = true }
+mcp-lms = { workspace = true }
+nanobot-webchat = { workspace = true }
+mcp-webchat = { workspace = true }
+mcp-obs = { workspace = true }
